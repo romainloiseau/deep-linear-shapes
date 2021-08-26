@@ -1,0 +1,11 @@
+dataroot: %s
+pre_transforms:
+  - transform: NormalizeScale
+  - transform: GridSampling3D
+    lparams: [0.02]
+train_transforms:
+  - transform: FixedPoints
+    lparams: [%i]
+test_transforms:
+  - transform: FixedPoints
+    lparams: [%i]
