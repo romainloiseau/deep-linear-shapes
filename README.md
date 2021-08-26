@@ -10,7 +10,7 @@ PyTorch implementation of "Representing Shape Collections with Alignment-Aware L
 
 ```
 conda env create -f environment.yml
-conda activate dlm
+conda activate dls
 ```
 
 **Optional:** some monitoring routines are implemented with `tensorboard`.

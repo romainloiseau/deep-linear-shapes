@@ -1,4 +1,4 @@
-name: dlm
+name: dls
 channels:
   - defaults
 dependencies:
