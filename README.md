@@ -14,6 +14,7 @@ conda activate dls
 ```
 
 **Optional:** some monitoring routines are implemented with `tensorboard`.
+
 **Note:** this implementation uses [torch-points3d](https://github.com/nicolas-chaulet/torch-points3d) and an adapted version of their datasets.
 
 ### 2. Update submodules to use Chamfer Distance
