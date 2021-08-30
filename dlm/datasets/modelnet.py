@@ -24,6 +24,8 @@ class SampledModelNet(tp3dSampledModelNet):
         torch.save(self.process_set("test"), self.processed_paths[1])
         
     def process_set(self, dataset):
+        if not osp.exists(osp.join(self.raw_dir, "modelnet{}_shape_names.txt".format(self.name))):
+            self.download()
         with open(osp.join(self.raw_dir, "modelnet{}_shape_names.txt".format(self.name)), "r") as f:
             categories = f.read().splitlines()
             categories = sorted(categories)
