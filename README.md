@@ -1,4 +1,4 @@
-# DeepLinearModels
+# deep-linear-shapes
 
 PyTorch implementation of "Representing Shape Collections with Alignment-Aware Linear Models" paper.
 
