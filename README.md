@@ -7,10 +7,17 @@ PyTorch implementation of "Representing Shape Collections with Alignment-Aware L
 If you find this code useful in your research, please cite:
 
 ```
-PUT REF BIBTEX
+@misc{loiseau2021representing,
+      title={Representing Shape Collections with Alignment-Aware Linear Models}, 
+      author={Romain Loiseau and Tom Monnier and Mathieu Aubry and Loïc Landrieu},
+      year={2021},
+      eprint={2109.01605},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV}
+}
 ```
 
-[paper](#)|[webpage](https://romainloiseau.github.io/deep-linear-shapes/)
+[paper](https://arxiv.org/abs/2109.01605) | [webpage](https://romainloiseau.github.io/deep-linear-shapes/)
 
 ## Installation :star2:
 
